@@ -7,12 +7,16 @@ import { CustomerDetailsComponent } from './customer-details/customer-details.co
 import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SelfieComponent } from './customer-details/selfie/selfie.component';
+import { GovtIdComponent } from './govt-id/govt-id.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerDetailsComponent,
-    HeaderComponent
+    HeaderComponent,
+    SelfieComponent,
+    GovtIdComponent
   ],
   imports: [
     BrowserModule,
