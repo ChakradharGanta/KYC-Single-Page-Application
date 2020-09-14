@@ -1,7 +1,7 @@
 <div class="top-msg-ins">
   <img [src]= "verify_url" alt="text" class="verify-img" style="width: 15%;float: left;">
   <h5><strong>Verify your identity</strong></h5>
-  <p>Please upload a selfie and provide personal details for KYC verification</p>
+  <p>Please upload a Government ID for KYC verification</p>
 </div>
 
 <div class="selfie-section">
@@ -36,7 +36,7 @@
 </div>
 
 <div style= "text-align: center;">
-  <button type="button" class="btn btn-success save-btn" style="width: 95%;">Save & Continue</button>
+  <button type="button" class="btn btn-success save-btn" [disabled] = "true" style="width: 95%;">Save & Continue</button>
 </div>
 
 

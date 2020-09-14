@@ -1,0 +1,28 @@
+.kyc-logo{
+  width: 60%;
+  margin: 10% auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.login-form{
+  width: 85%;
+  margin: 0 auto;
+}
+
+input{
+  font-weight: bold;
+}
+
+#password,
+#username{
+  margin-top: 8%;
+}
+
+.otp-btn{
+  width: 85%;
+}
+
