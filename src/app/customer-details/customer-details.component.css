@@ -1,0 +1,43 @@
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+.card{
+  margin: 7px 0px 7px -5px;
+  width: 95vw;
+  text-align: center;
+}
+
+.customer-form{
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 5px;
+  /* margin: 7px 20px 7px 20px; */
+  width: 50vw;
+  background-color: #ffffffc2;
+  /* border: 1px solid black; */
+  box-shadow: 0 3px 3px rgb(230, 224, 224);
+}
+
+.btn-gender{
+  text-align: center;
+
+}
+
+.btn-gen2{
+  border: 2px solid grey;
+  width: 80%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.btn-continue{
+  /* box-sizing: border-box; */
+  /* padding-left: 50px; */
+  padding-top: 5px;
+  text-align: center;
+  width: 85%;
+}
